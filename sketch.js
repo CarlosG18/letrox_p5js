@@ -33,7 +33,6 @@ function preload(){
   home1 = loadImage('arq/home1.png')
   x = loadImage('arq/errado.png')
   eu = loadImage('arq/eu.png')
-  music = loadSound('arq/music_letrox_1.m4a')
   click = loadSound('arq/click.wav')
   acertou = loadSound('arq/acertou.wav')
   error = loadSound('arq/error.wav')
@@ -509,8 +508,6 @@ function setup() {
   createCanvas(dim_tela_x,dim_tela_y);
   frameRate(60)
   colorMode(RGB,255)
-  music.setVolume(0.5)
-  music.loop()
 }
 
 function draw() {
