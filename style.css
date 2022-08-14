@@ -1,7 +1,122 @@
-html, body {
-  margin: 0;
-  padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
 }
-canvas {
-  display: block;
+
+:root{
+  --silver-chalice: #a9a9a9ff;
+  --midnight-green-eagle-green: #02394aff;
+  --prussian-blue: #043565ff;
+  --liberty: #5158bbff;
+  --wine: #702632ff;
+  --font1: 'Bebas Neue', cursive;
+  --font2: 'Open Sans', sans-serif;
 }
+
+body{
+  min-height: 100vh;
+  background-color: var(--prussian-blue);
+  font-family: var(--font1);
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav{
+  font-size: 20px;
+  padding: 15px;
+  letter-spacing: 5px;
+  background-color: var(--midnight-green-eagle-green);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+a {
+  color: var(--silver-chalice);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin-right: 30px;
+}
+
+h1{
+  font-size: 8em;
+  color: #fff;
+  letter-spacing: 5px;
+  margin-top: 40px;
+}
+
+p{
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game{
+  width: 100vw;
+}
+
+img{
+  width: 100vw;
+  margin: -10px 0px;
+}
+
+#area_game{
+  background-color: var(--silver-chalice);
+  padding: 100px 0px;
+}
+
+#box_game{
+  border: 15px double var(--prussian-blue);
+  border-radius: 10px;
+}
+
+.listra{
+  height: 50px;
+  background-color: var(--wine);
+}
+
+.logo{
+  width: 50px;
+  margin: 30px 20px;
+}
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 360px) {
+  
+  h1{
+    font-size: 5em;
+  }
+  
+  #box_game{
+    border: none;
+  }
+}
+
