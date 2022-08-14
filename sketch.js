@@ -506,7 +506,7 @@ const botao_tentar_dnv = new Botao(12.5,350,'tentar novamente','black','white',3
 
 function setup() {
   var cc = createCanvas(dim_tela_x,dim_tela_y);
-  cc.parent("box_game");
+  cc.parent('box_game');
   frameRate(60)
   colorMode(RGB,255)
 }
