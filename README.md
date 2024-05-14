@@ -9,7 +9,7 @@
 ## 🕹️ Descrição do jogo
 
 <p align="center">
-    <img width=450 src="./imgs/gameplay.gif"/>
+    <img width=300 src="./imgs/gameplay.gif"/>
 </p>
 
 <p align="center">gameplay do jogo Letrox</p>
